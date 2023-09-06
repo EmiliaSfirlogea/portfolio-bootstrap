@@ -1,9 +1,9 @@
 :root {
     --color-text: #141414;
-    --border: #d0cccc;
-    --background-color-btn: #141414;
+    --border-text: #d0cccc;
+    --background-color-btn: #000000;
     --color-text-btn: #ffff;
-    --border-btn: #141414;
+    --border-btn: #ffffff;
 }
 
 header .text .title .bio {
@@ -92,7 +92,7 @@ body {
     text-align: center;
     font-family: sans-serif;
     margin-top: 5%;
-    border: 1px solid var(--border);
+    border: 1px solid var(--border-text);
     border-radius: 10px;
     margin-left: 150px;
     margin-right: 150px;
@@ -108,8 +108,13 @@ body {
     margin-top: 9%;
 }
 
+.message {
+    border-radius: 10px;
+}
+
 .check {
     display: inline-block;
+    background-color: var(--color-text-btn);
 }
 
 input:checked {
@@ -127,8 +132,4 @@ input:checked {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-}
-
-.message {
-    border-radius: 10px;
 }
