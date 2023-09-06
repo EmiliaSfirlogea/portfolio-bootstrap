@@ -1,5 +1,7 @@
 :root {
     --color-text: #141414;
+    --border:#d0cccc;
+    --background-color-btn:#141414;
 }
 
 header .text .title .bio {
@@ -38,31 +40,33 @@ body {
     width: 95px;
     height: 91px;
     flex-shrink: 0;
-    fill: #000;
+    color: var(--color-text);
 }
 
 .concept {
     width: 95px;
     height: 119px;
+    color: var(--color-text);
 }
 
 .refining {
     width: 95px;
     height: 81.57px;
     flex-shrink: 0;
-    fill: #000;
+    color: var(--color-text);
 }
 
 .revisions {
     width: 95px;
     height: 87.617px;
     flex-shrink: 0;
-    fill: #000;
+    color: var(--color-text);
 }
 
 .hurray {
     width: 95px;
     height: 119px;
+    color: var(--color-text);
 }
 
 .text {
@@ -86,7 +90,7 @@ body {
     text-align: center;
     font-family: sans-serif;
     margin-top: 5%;
-    border: 1px solid rgb(208, 204, 204);
+    border: 1px solid var(--border);
     border-radius: 10px;
     margin-left: 150px;
     margin-right: 150px;
@@ -112,7 +116,7 @@ input:checked {
 }
 
 .btn {
-    background-color: #000000;
+    background-color: var(--background-color-btn);
     border-radius: 10px;
     border: 2px solid black;
     color: rgb(255, 255, 255);
