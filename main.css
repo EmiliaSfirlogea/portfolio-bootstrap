@@ -1,7 +1,9 @@
 :root {
     --color-text: #141414;
-    --border:#d0cccc;
-    --background-color-btn:#141414;
+    --border: #d0cccc;
+    --background-color-btn: #141414;
+    --color-text-btn: #ffff;
+    --border-btn: #141414;
 }
 
 header .text .title .bio {
@@ -23,7 +25,7 @@ body {
 .nav-tabs {
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 
 }
 
@@ -118,8 +120,8 @@ input:checked {
 .btn {
     background-color: var(--background-color-btn);
     border-radius: 10px;
-    border: 2px solid black;
-    color: rgb(255, 255, 255);
+    border: 2px solid var(--border-btn);
+    color: var(--color-text-btn);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
