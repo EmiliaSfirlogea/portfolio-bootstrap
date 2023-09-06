@@ -22,7 +22,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center; 
-    
+
 }
 
 .icons {
@@ -99,7 +99,6 @@ body {
     margin: 50px 0px;
     padding: 0px;
     text-align: center;
-    align: center;
     margin-top: 9%;
 }
 
