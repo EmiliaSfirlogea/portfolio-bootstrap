@@ -6,14 +6,13 @@
     --border-btn: #ffffff;
 }
 
-.text .title .bio {
+.name, .text, .title, .bio {
     color: var(--color-text);
 }
 
-.title {
+.title, .name {
     text-align: center;
     font-family: sans-serif;
-    color: var(--color-text);
 }
 
 body {
@@ -75,7 +74,6 @@ body {
     margin-top: 205px;
     text-align: center;
     font-family: sans-serif;
-    color: var(--color-text);
 }
 
 #menu1 {
@@ -96,7 +94,6 @@ body {
     margin-left: 150px;
     margin-right: 150px;
     margin-bottom: 250px;
-    color: var(--color-text);
 
 }
 
