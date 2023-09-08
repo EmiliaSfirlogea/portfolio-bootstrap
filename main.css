@@ -78,12 +78,6 @@ body {
     color: var(--color-text);
 }
 
-.title {
-    place-content: center;
-    font-family: sans-serif;
-    color: var(--color-text);
-}
-
 #menu1 {
     font-family: sans-serif;
     color: var(--color-text);
