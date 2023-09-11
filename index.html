@@ -127,21 +127,18 @@
                     <h1>Emilia Sfîrlogea</h1>
                     <h3>Graphic Designer</h3>
                 </header>
-                <form class="form">
-                    <p>Nume</p>
-                    <input type="text" name="username" />
-                    <br>
-                    <p>E-mail</p>
-                    <input type="text" name="e-mail" />
-                    <p>Mesaj</p>
-                    <textarea class="message" name="parerea ta" cols="50" rows="10"></textarea>
-                    <br>
-                    <div>
-                        <input type="checkbox" name="termeni" class="check" />
-                        <p class="check">Termeni și condiții</p>
-                    </div>
-                    <button class="btn">Trimite</button>
-                </form>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary mb-3">Submit</button>
+                </div>
             </div>
 
         </div>
