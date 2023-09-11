@@ -4,20 +4,28 @@
     --background-color-btn: #000000;
     --color-text-btn: #ffff;
     --border-btn: #ffffff;
+
+    /* --bs-body-color: red;
+    --bs-body-bg: #141414; */
 }
 
-.name, .text, .title, .bio {
+.name,
+.text,
+.title,
+.bio {
     color: var(--color-text);
 }
 
-.title, .name {
+.title,
+.name {
     text-align: center;
     font-family: sans-serif;
 }
 
 body {
-    background-image: url("banner.jpg");
-    background-size: cover;
+    /* background-image: url("banner.jpg");
+    background-size: cover; */
+    /* background-color: #141414; */
 }
 
 .nav,
