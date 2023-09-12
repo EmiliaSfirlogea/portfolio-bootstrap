@@ -1,18 +1,32 @@
 :root {
-    --color-text: #ffffff;
-    --border-text: #d0cccc;
-    --background-color-btn: #000000;
-    --color-text-btn: #ffff;
-    --border-btn: #ffffff;
+    --color-text: #fbfbfb;
+    --border-text: #fbfbfb;
+    --color-text-btn: #fbfbfb;
+    --border-btn: #fbfbfb;
 
-    /* --bs-body-color: red;
-    --bs-body-bg: #141414; */
+
+}
+
+.btn-primary {
+    --bs-btn-color: #181818;
+    --bs-btn-bg: #fbfbfb;
+    --bs-btn-border-color: #fbfbfb;
+    --bs-btn-hover-color: #181818;
+    --bs-btn-hover-bg: #0ce349;
+    --bs-btn-hover-border-color: #181818;
+    --bs-btn-active-color: #181818;
+    --bs-btn-active-bg: #fbfbfb;
+    --bs-btn-active-border-color: #fbfbfb;
+    --bs-btn-disabled-color: #181818;
 }
 
 body {
-    
-     background-color: #141414;
-     color: var(--color-text);
+
+    background-image: url(banner1.svg);
+    background-color: #141414;
+    color: var(--color-text);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
 }
 
 #header {
@@ -89,31 +103,38 @@ body {
 
 }
 
-.form {
-    margin: 50px 0px;
+.mb-3 {
+    margin: 550px 0px;
     padding: 0px;
     text-align: center;
-    margin-top: 9%;
+    margin-top: 4%;
 }
 
-.check {
-    display: inline-block;
-    background-color: var(--color-text-btn);
-}
 
-input:checked {
-    height: 15px;
-    width: 15px;
+.btn:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: var(--bs-btn-hover-bg);
+    border-color: var(--bs-btn-hover-border-color);
 }
 
 .btn {
-    background-color: var(--background-color-btn);
-    border-radius: 10px;
-    border: 2px solid var(--border-btn);
-    color: var(--color-text-btn);
-    padding: 15px 32px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    --bs-btn-font-family:sans-serif ;
+    --bs-btn-font-size: 1rem;
+    --bs-btn-disabled-opacity: 0.65;
+    font-family: var(--bs-btn-font-family);
+    font-size: var(--bs-btn-font-size);
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    vertical-align: middle;
+    user-select: none;
+    border: var(--bs-btn-border-color);
+    border-radius: var(--bs-btn-border-radius);
+    background-color: var(--bs-btn-bg);
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+::after,
+::before {
+    box-sizing: border-box;
 }
