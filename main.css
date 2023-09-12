@@ -1,5 +1,5 @@
 :root {
-    --color-text: #141414;
+    --color-text: #ffffff;
     --border-text: #d0cccc;
     --background-color-btn: #000000;
     --color-text-btn: #ffff;
@@ -9,38 +9,22 @@
     --bs-body-bg: #141414; */
 }
 
-.name,
-.text,
-.title,
-.bio {
-    color: var(--color-text);
-}
-
-.title,
-.name {
-    text-align: center;
-    font-family: sans-serif;
-}
-
 body {
-    /* background-image: url("banner.jpg");
-    background-size: cover; */
-    /* background-color: #141414; */
+    
+     background-color: #141414;
+     color: var(--color-text);
 }
 
-.nav,
-.nav-tabs {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+#header {
+    text-align: center;
 }
+
+
 
 .icons {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    padding: 150px 350px 150px 350px;
     text-align: center;
     margin-bottom: 105px;
 }
