@@ -83,35 +83,35 @@ body {
 }
 
 .research {
-    width: 95px;
-    height: 91px;
+    width: 75px;
+    height: 71px;
     flex-shrink: 0;
     color: var(--color-text);
 }
 
 .concept {
-    width: 95px;
-    height: 119px;
+    width: 75px;
+    height: 97px;
     color: var(--color-text);
 }
 
 .refining {
-    width: 95px;
-    height: 81.57px;
+    width: 69px;
+    height: 73px;
     flex-shrink: 0;
     color: var(--color-text);
 }
 
 .revisions {
-    width: 95px;
-    height: 87.617px;
+    width: 67px;
+    height: 79px;
     flex-shrink: 0;
     color: var(--color-text);
 }
 
 .hurray {
-    width: 95px;
-    height: 119px;
+    width: 65px;
+    height: 95px;
     color: var(--color-text);
 }
 
