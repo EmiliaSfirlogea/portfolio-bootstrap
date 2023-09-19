@@ -85,7 +85,6 @@ body {
 .research {
     width: 75px;
     height: 71px;
-    flex-shrink: 0;
     color: var(--color-text);
 }
 
@@ -98,14 +97,12 @@ body {
 .refining {
     width: 69px;
     height: 73px;
-    flex-shrink: 0;
     color: var(--color-text);
 }
 
 .revisions {
     width: 67px;
     height: 79px;
-    flex-shrink: 0;
     color: var(--color-text);
 }
 
