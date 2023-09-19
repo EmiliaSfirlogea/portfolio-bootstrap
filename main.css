@@ -3,7 +3,6 @@
     --border-text: #fbfbfb;
     --color-text-btn: #fbfbfb;
     --border-btn: #fbfbfb;
-    --bs-nav-link-color: var(--bs-link-color);
 
 }
 
@@ -48,9 +47,20 @@ body {
 .nav {
     transition-duration: 0.4s;
     --bs-nav-pills-link-active-bg: #1e1f20;
+    --bs-nav-link-hover-color: #0aca76;
+    --bs-nav-link-color: #0aca76;
 }
 
-
+.btn-primary {
+    --bs-btn-bg: #1e1f20; 
+    --bs-btn-border-color: #fbfbfb;
+    --bs-btn-hover-bg: #1e1f20;
+    --bs-btn-hover-border-color: #1e1f20;
+    --bs-btn-active-border-color: #fbfbfb; 
+    --bs-btn-active-bg: #0aca76;
+    --bs-btn-disabled-bg: #0aca76;
+    --bs-btn-disabled-border-color: #0aca76;      
+}
 
 .icons {
     display: flex;
