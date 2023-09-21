@@ -174,27 +174,17 @@
     <div id="menu3" class="container tab-pane fade"><br>
         <div class="row">
             <div class="col-xxl-12 col-xl-8 col-lg-6 col-md-4 col-sm-2">
-                <form>
-                    <div class="form-outline mb-4">
-                        <input type="text" id="form4Example1" class="form-control" />
-                        <label class="form-label" for="form4Example1">Name</label>
-                    </div>
-                    <div class="form-outline mb-4">
-                        <input type="email" id="form4Example2" class="form-control" />
-                        <label class="form-label" for="form4Example2">Email address</label>
-                    </div>
-                    <div class="form-outline mb-4">
-                        <textarea class="form-control" id="form4Example3" rows="4"></textarea>
-                        <label class="form-label" for="form4Example3">Message</label>
-                    </div>
-                    <div class="form-check d-flex justify-content-center mb-4">
-                        <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
-                        <label class="form-check-label" for="form4Example4">
-                            Send me a copy of this message
-                        </label>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
-                </form>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="form" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="form" rows="3"></textarea>
+                </div>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary mb-3">Submit</button>
+                </div>
             </div>
 
         </div>

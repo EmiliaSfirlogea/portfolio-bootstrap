@@ -56,8 +56,20 @@ body {
 
 .mb-3 {
     text-align: center;
+    position: relative;
+    align-items:flex-start;
 }
 
+.btn-primary {
+    --bs-btn-bg: #1e1f20;
+    --bs-btn-border-color: #fbfbfb;
+    --bs-btn-hover-bg: #1e1f20;
+    --bs-btn-hover-border-color: #1e1f20;
+    --bs-btn-active-border-color: #fbfbfb;
+    --bs-btn-active-bg: #0aca76;
+    --bs-btn-disabled-bg: #0aca76;
+    --bs-btn-disabled-border-color: #0aca76;
+}
 
 .col-auto {
     display: flex;
@@ -134,7 +146,4 @@ body {
 .col-xxl-12 {
     flex: 0 0 auto;
     width: 100%;
-}
-.form-control {
-    margin-block-start: 10px;
 }
