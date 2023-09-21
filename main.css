@@ -68,10 +68,11 @@ body {
     --bs-btn-disabled-bg: #0aca76;
     --bs-btn-disabled-border-color: #0aca76;
 }
+
 .col-auto {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center; 
+    justify-content: center;
 }
 
 .icons {
@@ -143,4 +144,10 @@ body {
 .col-xxl-12 {
     flex: 0 0 auto;
     width: 100%;
+}
+
+.form-control:focus {
+    outline: 2px solid white;
+    outline-offset: .25rem;
+    border: #fbfbfb;
 }
