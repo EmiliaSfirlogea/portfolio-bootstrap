@@ -147,9 +147,14 @@ body {
     width: 100%;
 }
 
+input[type=email],
+textarea{
+    border:none!important;
+}
+
 input:focus,
 textarea:focus,
 select:focus,
 a:focus {
-    outline: none;
+    outline: none!important;
 }
