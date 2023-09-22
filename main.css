@@ -19,9 +19,10 @@ body {
 }
 
 .mb-3 {
-    
+
     text-align: center;
 }
+
 .col-auto {
     display: flex;
     flex-flow: row nowrap;
@@ -144,4 +145,11 @@ body {
 .col-xxl-12 {
     flex: 0 0 auto;
     width: 100%;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+a:focus {
+    outline: none;
 }
