@@ -19,9 +19,10 @@ body {
 }
 
 .mb-3 {
-    
+
     text-align: center;
 }
+
 .col-auto {
     display: flex;
     flex-flow: row nowrap;
@@ -144,4 +145,19 @@ body {
 .col-xxl-12 {
     flex: 0 0 auto;
     width: 100%;
+}
+
+input[type=email],
+textarea{
+    border:none!important;
+    -webkit-box-shadow: none!important;
+	-moz-box-shadow: none!important;
+	box-shadow: none!important;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+a:focus {
+    outline: none!important;
 }
