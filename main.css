@@ -124,9 +124,9 @@ body {
     padding-right: 8px;
     padding-bottom: 7px;
     position: relative;
-    top: 25px;
-    left: 100px;
-    bottom: 300px;
+    top: -100px;
+    left: 250px;
+    bottom: 500px;
 
 }
 
@@ -155,4 +155,9 @@ textarea:focus,
 select:focus,
 a:focus {
     outline: none !important;
+}
+
+.bg-dark, .text-center, .text-white, {
+
+    position: relative;
 }
