@@ -10,7 +10,6 @@
 
 body {
 
-    background-image: url(banner1.svg);
     background-size: cover;
     background-color: #141414;
     color: var(--color-text);
@@ -44,16 +43,24 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-top: 205px;
     text-align: center;
-    color: #ffe700;
+    color: #fbfbfb;
+    z-index: 400;
 }
 
 #header {
-    font-size: 500px;
-    color: #ffe700;
+    font-size: 750px;
+    color: #fbfbfb;
     flex: auto;
-    text-align: center;
-    margin-top: 85px;
+    text-align: center; 
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    z-index: 800;
+}
+.personal:{
+    color: #fbfbfb;
+    flex: auto;
+    text-align: center; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    z-index: 600;
 }
 
 #btn-menu {
@@ -63,6 +70,7 @@ body {
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: none;
+    z-index: 1000;
 
 
 }
@@ -76,12 +84,9 @@ body {
     display: flex;
     transition-duration: 0.4s;
     --bs-nav-pills-link-active-bg: #1e1f20;
-    --bs-nav-link-hover-color: #f000ff;
-    --bs-nav-link-color: #f000ff;
+    --bs-nav-link-hover-color: #fbfbfb;
+    --bs-nav-link-color: #fbfbfb;
 }
-
-
-
 
 
 #menu1 {
@@ -90,19 +95,41 @@ body {
 }
 
 .img {
-    border-radius: 50%;
+    
+    top: 0x; ;
+    left: 0;
+    display: flex;
+    border-radius: 25px;
+    border: 1px solid #F9F9F9;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 7px 7px rgba(0, 0, 0, 0.25);
+    float: right;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 100px;
+    bottom: 200px;
+}
 
+.rectangle {
+    
+    width: 543px;
+    height: 718px;
+    flex-shrink: 0;
+    background: #FFE700;
+    border-radius: 25px;
+    float: right;
+    padding-top: 10px;
+    padding-left: 9px;
+    padding-right: 8px;
+    padding-bottom: 7px;
+    position: relative;
+    top: 25px;
+    left: 100px;
+    bottom: 300px;
 
 }
 
-.bio {
-    width: 11em;
-    border: 1px solid #000000;
-    word-wrap: break-word;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-top: 7%;
-
-}
 
 .col-lg-6 {
 
