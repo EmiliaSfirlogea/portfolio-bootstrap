@@ -39,47 +39,51 @@ body {
     --bs-btn-disabled-border-color: #f000ff;
 }
 
-.ski{
-    text-orientation: mixed;  
+.ski {
+    text-orientation: mixed;
 }
 
 #header {
     color: #fbfbfb;
     flex: auto;
-    text-align: center; 
+    text-align: center;
 }
 
-h1{
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: transparent;
-    font-size: 95px;
+    font-size: 75px;
     text-transform: uppercase;
     -webkit-text-stroke: 3px #fbfbfb;
     ;
 }
-h3{
+
+h3 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #fbfbfb;
     text-align: center;
 
 }
-p{
+
+p {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #fbfbfb;
     text-align: left;
     position: relative;
     right: 0px;
-    
+
 }
-.text{
-    display: inline-block; 
-	padding: 5px; 
+
+.text {
+    display: inline-block;
+    padding: 5px;
     border: 1px solid #fbfbfb;
-    position: relative;
+    /* position: relative;
     bottom: 500px;
     right: 500px;
-    left: 0px;
+    left: 0px; */
 }
+
 #btn-menu {
     display: flex;
     flex-flow: row nowrap;
@@ -112,38 +116,27 @@ p{
 }
 
 .img {
-    
-    top: 0x; ;
-    left: 0;
-    display: flex;
+    /* imagine responsive  */
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+
     border-radius: 25px;
     border: 1px solid #F9F9F9;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     box-shadow: 0px 4px 7px 7px rgba(0, 0, 0, 0.25);
-    float: right;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    right: 100px;
-    bottom: 200px;
 }
 
 .rectangle {
-    
-    width: 543px;
-    height: 718px;
-    flex-shrink: 0;
+            
     background: #FFE700;
-    border-radius: 25px;
-    float: right;
+    border-radius: 25px;    
     padding-top: 10px;
     padding-left: 9px;
     padding-right: 8px;
-    padding-bottom: 7px;
-    position: relative;
-    top: -100px;
-    left: 250px;
-    bottom: 500px;
+    padding-bottom: 7px;                
 
 }
 
