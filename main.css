@@ -78,10 +78,7 @@ p {
     display: inline-block;
     padding: 5px;
     border: 1px solid #fbfbfb;
-    /* position: relative;
-    bottom: 500px;
-    right: 500px;
-    left: 0px; */
+    border-radius: 15px;
 }
 
 #btn-menu {
