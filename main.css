@@ -49,6 +49,7 @@ body {
     text-align: center;
 }
 
+
 h1 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: transparent;
@@ -162,4 +163,10 @@ textarea:focus,
 select:focus,
 a:focus {
     outline: none !important;
+}
+.footer{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
 }
