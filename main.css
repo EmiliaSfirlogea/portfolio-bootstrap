@@ -4,6 +4,7 @@
     --color-text-btn: #fbfbfb;
     --border-btn: #fbfbfb;
     --bs-border-radius: #f000ff;
+    --background-color-footer:#141414;
 
 }
 
@@ -126,13 +127,13 @@ p {
 }
 
 .rectangle {
-            
+
     background: #FFE700;
-    border-radius: 25px;    
+    border-radius: 25px;
     padding-top: 10px;
     padding-left: 9px;
     padding-right: 8px;
-    padding-bottom: 7px;                
+    padding-bottom: 7px;
 
 }
 
@@ -162,10 +163,24 @@ select:focus,
 a:focus {
     outline: none !important;
 }
-.footer{
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
-    background-color: #141414;
+
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--background-color-footerb),var(--bs-bg-opacity))!important;
+}
+footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15%;
+}
+
+@media screen and (max-width: 576px) {
+    .footer-content {
+        justify-content: center;
+    }
 }
