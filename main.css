@@ -4,7 +4,7 @@
     --color-text-btn: #fbfbfb;
     --border-btn: #fbfbfb;
     --bs-border-radius: #f000ff;
-    --background-color-footer:#141414;
+    --background-color-footer: #141414;
 
 }
 
@@ -118,25 +118,34 @@ p {
     max-width: 100%;
     height: auto;
     margin: 0 auto;
-
-
     border-radius: 25px;
     border: 1px solid #F9F9F9;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     box-shadow: 0px 4px 7px 7px rgba(0, 0, 0, 0.25);
+
 }
 
 .rectangle {
-
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
     background: #FFE700;
     border-radius: 25px;
-    padding-top: 10px;
-    padding-left: 9px;
-    padding-right: 8px;
-    padding-bottom: 7px;
-
+    padding: 9px !important;
 }
 
+@media screen and (max-width: 576px) {
+    .img {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .rectangle {
+        margin-top: 20px;
+    }
+}
 
 .col-lg-6 {
 
@@ -166,8 +175,9 @@ a:focus {
 
 .bg-dark {
     --bs-bg-opacity: 1;
-    background-color: rgba(var(--background-color-footerb),var(--bs-bg-opacity))!important;
+    background-color: rgba(var(--background-color-footerb), var(--bs-bg-opacity)) !important;
 }
+
 footer {
     background-color: #f8f8f8;
     padding: 20px;
