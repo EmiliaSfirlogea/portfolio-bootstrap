@@ -25,14 +25,11 @@
                 <li class="nav-item">
                     <a class="nav-link active" data-bs-toggle="pill" href="#home">Home</a>
                 </li>
-                <!--<li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="pill" href="#menu1">About</a>
-                    </li>-->
                 <li class="nav-item">
                     <a class="nav-link" data-bs-toggle="pill" href="#menu2">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-bs-toggle="pill" href="#menu3">Contact</a>
+                    <a class="nav-link form_open" data-bs-toggle="pill" href="#menu3">Contact</a>
                 </li>
             </ul>
         </div>
@@ -334,7 +331,7 @@
                         </div>
                         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
                             <div class="p-3 rectangle">
-                                <img class="img" src="./assets/img/emilia-sfirlogea.jpg"  alt="portfolio-bootstrap">
+                                <img class="img" src="./assets/img/emilia-sfirlogea.jpg" alt="portfolio-bootstrap">
                             </div>
 
                         </div>
@@ -368,21 +365,25 @@
                     </div>
                 </div>
                 <div id="menu3" class="container tab-pane fade">
-                    <div class="row">
-                        <div class="col-xxl-12 col-xl-8 col-lg-6 col-md-4 col-sm-2">
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="form" placeholder="name@example.com">
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                                <textarea class="form-control" id="form" rows="3"></textarea>
-                            </div>
-                            <div class="col-auto">
-                                <button type="submit" class="btn btn-primary mb-3">Submit</button>
+                    <form action="#" class="needs-validation">
+                        <div class="row">
+                            <div class="col-xxl-12 col-xl-8 col-lg-6 col-md-4 col-sm-2">
+                                <div class="mb-3 form-check">
+                                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                                    <input name="email" type="email" class="form-control"
+                                        placeholder="name@example.com">
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                    <textarea name="mesaj" class="form-control" rows="3"></textarea>
+                                </div>
+                                <div class="col-auto">
+                                    <button type="submit" class="btn btn-primary mb-3">Submit</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                        <div class="form_error"></div>
+                    </form>
                 </div>
             </div>
 
