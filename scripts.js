@@ -17,4 +17,4 @@ setTimeout(() => {
 
 const uri = 'https://emiliasfirlogea.github.io/portfolio-bootstrap/html5/web-design';
 const encoded = encodeURI(uri);
-console.log(encoded);
+console.log(decodeURI(encoded));
