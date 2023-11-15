@@ -14,7 +14,9 @@ setTimeout(() => {
     })
 }, 1000)
 
-
+url1 = Home
+url2 = Portfolio
+url3 = Contact
 let url1 = new URL('https://emiliasfirlogea.github.io/portfolio-bootstrap/html5/web-design/servicii');
 let url2 = new URL('https://emiliasfirlogea.github.io/portfolio-bootstrap/posters/ecommerce/creator-logo/banners');
 let url3 = new URL('https://emiliasfirlogea.github.io/portfolio-bootstrap/contact/logo-online/standard-html5/e-commerce-e/wordpress')
