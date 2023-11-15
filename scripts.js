@@ -15,6 +15,6 @@ setTimeout(() => {
 }, 1000)
 
 
-const uri = 'https://emiliasfirlogea.github.io/portfolio-bootstrap/html5/web-design';
-const encoded = encodeURI(uri);
+let url1 = new URL('https://emiliasfirlogea.github.io/portfolio-bootstrap/html5/web-design/servicii');
+let url2 = new URL('https://emiliasfirlogea.github.io/portfolio-bootstrap/posters/ecommerce/creator-logo/banners');
 console.log(decodeURI(encoded));
