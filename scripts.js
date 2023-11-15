@@ -20,6 +20,6 @@ url3 = menu3
 let home = new URL('https://emiliasfirlogea.github.io/portfolio-bootstrap/html5/web-design/servicii');
 let menu2 = new URL('https://emiliasfirlogea.github.io/portfolio-bootstrap/posters/ecommerce/creator-logo/banners');
 let menu3 = new URL('https://emiliasfirlogea.github.io/portfolio-bootstrap/contact/logo-online/standard-html5/e-commerce-e/wordpress/email/message')
-console.log(url1);
-console.log(url2);
-console.log(url3);
+console.log(home);
+console.log(menu2);
+console.log(menu3);
