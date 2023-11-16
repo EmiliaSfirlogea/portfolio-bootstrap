@@ -33,6 +33,12 @@ new class {
                 document.querySelector('.tab-content').querySelector('.active').classList.remove('active')
                 pageContainer.classList.add('active')
                 pageContainer.classList.remove('fade')
+
+            }
+            let navLink = document.querySelector('.nav').document.querySelector(`[href*="${page}"]`)
+            if (navLink) {
+                document.querySelector('.nav').querySelector('.active').classList.remove('active')
+                navLink.classList.add('active')
             }
         }
     }
