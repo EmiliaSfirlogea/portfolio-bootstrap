@@ -27,8 +27,8 @@ new class {
         let urlData = this.getUrlData()
         let page = urlData.shift()
         if (page) {
-            let menuLink = document.querySelector(`[href*="#${page}"]`)
-            if (menuLink) menuLink.click()
+            let pageContainer = document.getElementById(page)
+            if (pageContainer) pageContainer.style.display = 'block'
         }
     }
 }
