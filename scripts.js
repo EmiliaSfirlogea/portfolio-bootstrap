@@ -24,7 +24,10 @@ new class {
     }
     main() {
         this.initForm()
-        console.log(this.getUrlData())
+        let urlData = this.getUrlData()
+        let page = urlData[0]
+        let menuLink = document.querySelector(`[href*="#${page}"]`)
+        if (menuLink) menuLink.click()
     }
 }
 
