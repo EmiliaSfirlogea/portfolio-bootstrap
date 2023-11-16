@@ -31,7 +31,6 @@ new class {
             if (pageContainer) {
                 pageContainer.classList.add('active')
                 pageContainer.classList.remove('fade')
-                pageContainer.classList.add('fade-in')
             }
             let navLink = document.querySelector('.nav').querySelector(`[href*="${page}"]`)
             if (navLink) {
