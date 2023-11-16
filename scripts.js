@@ -28,7 +28,12 @@ new class {
         let page = urlData.shift()
         if (page) {
             let pageContainer = document.getElementById(page)
-            if (pageContainer) pageContainer.style.display = 'block'
+            if (pageContainer) {
+                document.querySelector('.tab-content').querySelector('.active').classList.add('fade')
+                document.querySelector('.tab-content').querySelector('.active').classList.remove('active')
+                pageContainer.classList.add('active')
+                pageContainer.classList.remove('fade')
+            }
         }
     }
 }
