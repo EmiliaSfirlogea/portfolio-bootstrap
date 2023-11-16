@@ -25,12 +25,12 @@ new class {
     main() {
         this.initForm()
         let urlData = this.getUrlData()
-        let page = urlData.shift()
+        let page = urlData.shift() || 'home'
         if (page) {
             let pageContainer = document.getElementById(page)
             if (pageContainer) {
-                document.querySelector('.tab-content').querySelector('.active').classList.add('fade')
-                document.querySelector('.tab-content').querySelector('.active').classList.remove('active')
+                //document.querySelector('.tab-content').querySelector('.active').classList.add('fade')
+                //document.querySelector('.tab-content').querySelector('.active').classList.remove('active')
                 pageContainer.classList.add('active')
                 pageContainer.classList.remove('fade')
 
