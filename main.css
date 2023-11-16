@@ -42,6 +42,15 @@ body {
 
 .ski {
     text-orientation: mixed;
+    display: block;
+    max-width: 100%;
+    place-items: right;
+}
+
+.icon {
+    display: block;
+    max-width: 100%;
+    place-items: right;
 }
 
 #header {
