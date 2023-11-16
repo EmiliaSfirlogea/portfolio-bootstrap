@@ -120,7 +120,7 @@ p {
     margin: 0 auto;
     border-radius: 25px;
     border: 1px solid #F9F9F9;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    background: url("assets/img/emilia-sfirlogea.jpg"), lightgray 50% / cover no-repeat;
     box-shadow: 0px 4px 7px 7px rgba(0, 0, 0, 0.25);
 
 }
