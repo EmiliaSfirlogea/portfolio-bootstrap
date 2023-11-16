@@ -31,9 +31,8 @@ new class {
             if (pageContainer) {
                 //document.querySelector('.tab-content').querySelector('.active').classList.add('fade')
                 //document.querySelector('.tab-content').querySelector('.active').classList.remove('active')
+                pageContainer.classList.add('fade')
                 pageContainer.classList.add('active')
-                pageContainer.classList.remove('fade')
-
             }
             let navLink = document.querySelector('.nav').querySelector(`[href*="${page}"]`)
             if (navLink) {
