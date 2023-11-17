@@ -51,7 +51,7 @@ body {
     display: block;
     max-width: 100%;
     place-items: right;
-    top: 20px;
+    margin-top: 20px;
 }
 
 #header {
