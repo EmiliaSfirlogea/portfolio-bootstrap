@@ -41,7 +41,7 @@ body {
 }
 
 .ski {
-    text-orientation: mixed;
+    text-orientation: vertical;
     display: block;
     max-width: 100%;
     place-items: right;
@@ -76,7 +76,7 @@ h3 {
 
 }
 
-.boot{
+.boot {
     color: #f8f8f8;
 }
 
